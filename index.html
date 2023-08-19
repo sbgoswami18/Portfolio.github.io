@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Wraper -->
+  <div class="wraper">
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Main Section -->
+      <div class="main_sec">
+
+        <!-- Navbar -->
+        <div class="navbar">
+          <div class="heading">
+            <div>
+              SHIVAM GOSWAMI
+            </div>
+          </div>
+          <div class="nav_tags">
+            <a href="#about_link">About</a>
+            <a href="#experience_link">Skills</a>
+            <a href="#Project_link">Projects</a>
+            <a href="#contact_link">Contact</a>
+          </div>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero_sec">
+          <div class="user_img">
+            <img src="assets/user_photo.jpeg" alt="user_photo" >
+          </div>
+          <div class="user_data">
+            <p>Hello, I'm</p>
+            <h1>Shivam Goswami</h1>
+            <h2>Frontend Web Developer</h2>
+            <div class="btns">
+              <button class="btn_1" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+              <button class="btn_2" onclick="location.href='./#contact_link'">Contact Info</button>
+            </div>
+            <div class="social_media">
+              <img class="img_1" onclick="window.open('https://www.linkedin.com/in/shivam-goswami-8bbb3b208')" src="assets/linkedin.png" alt="linkedin" width="50px" height="50px">
+              <img class="img_2" onclick="window.open('https://github.com/sbgoswami18')" src="assets/github.png" alt="github" width="50px" height="50px">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Me Section -->
+      <div class="about" id="about_link">
+        <div class="title">
+          <p>Get To Know More</p>
+          <h2>About Me</h2>
+        </div>
+        <div class="detail">
+          <div class="user_photo">
+            <img src="assets/user_photo.jpeg" alt="user_photo" width="100px" height="100px">
+          </div>
+          <div class="data">
+            <div class="education_data">
+              <div class="box_1">
+                <img src="assets/experience.png" alt="experience" width="50px" height="50px">
+                <h3>Experience</h3>
+                <p>Self Experience In</p>
+                <p>Frontend Development</p>
+              </div>
+              <div class="box_2">
+                <img src="assets/education.png" alt="education" width="50px" height="50px">
+                <h3>Education</h3>
+                <p>Information Technology(IT)</p>
+                <p>Bachelor Of Engineeringe(BE)</p>
+              </div>
+            </div>
+            <div class="about_me_data">
+              <p>I am a web developer as a frontend web
+                developer. I have some self experience
+                in frontend web development. I also
+                have some experience in data structure
+                and algorithm. Now I am learning Full
+                Stack Web Development.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow">
+          <img src="assets/arrow.png" onclick="location.href='./#experience_link'" alt="arrow" width="50pxpx" height="50pxpx">
+        </div>
+      </div>
+
+      <!-- Experience Section -->
+      <div class="experience" id="experience_link">
+        <div class="title">
+          <p>Explore My</p>
+          <h1>Skills</h1>
+        </div>
+        <div class="skills">
+          <div class="experience_1">
+            <h1>Frontend Development</h1>
+            <div class="skill_1">
+              <div class="box">
+                <img src="assets/checkmark.png" alt="checkmark" width="20px" height="20px">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div class="box">
+                <img src="assets/checkmark.png" alt="checkmark" width="20px" height="20px">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div class="box">
+                <img src="assets/checkmark.png" alt="checkmark" width="20px" height="20px">
+                <div>
+                  <h3>Tailwind CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div class="box">
+                <img src="assets/checkmark.png" alt="checkmark" width="20px" height="20px">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="experience_2">
+            <h1>Programming Language</h1>
+            <div class="skill_2">
+              <div class="box">
+                <img src="assets/checkmark.png" alt="checkmark" width="20px" height="20px">
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div class="box">
+                <img src="assets/checkmark.png" alt="checkmark" width="20px" height="20px">
+                <div>
+                  <h3>C++</h3>
+                  <p>Experienced</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrow">
+          <img src="assets/arrow.png" onclick="location.href='./#Project_link'" alt="arrow" width="50pxpx" height="50pxpx">
+        </div>
+      </div>
+
+      <!-- Projects Section -->
+      <div class="Project" id="Project_link">
+        <div class="title">
+          <p>Browse My Recent</p>
+          <h1>Projects</h2>
+        </div>
+        <div class="cards">
+          <div class="card_1">
+            <img src="assets/project-1.png" alt="project_1" width="100px" height="100px">
+            <h2>Weather App</h2>
+            <div class="btns">
+              <button class="btn_1" onclick="window.open('https://github.com/sbgoswami18/Weather_App.github.io')">GitHub</button>
+              <button class="btn_1" onclick="window.open('https://sbgoswami18.github.io/Weather_App.github.io/')">Live Demo</button>
+            </div>
+          </div>
+          <div class="card_1">
+            <img src="assets/project-2.png" alt="project_1" width="100px" height="100px">
+            <h2>DevDetective</h2>
+            <div class="btns">
+              <button class="btn_1" onclick="window.open('https://github.com/sbgoswami18/Dev_Detective.github.io')">GitHub</button>
+              <button class="btn_1" onclick="window.open('https://sbgoswami18.github.io/Dev_Detective.github.io/')">Live Demo</button>
+            </div>
+          </div>
+          <div class="card_1">
+            <img src="assets/project-3.png" alt="project_1" width="100px" height="100px">
+            <h2>Password Generator</h2>
+            <div class="btns">
+              <button class="btn_1" onclick="window.open('https://github.com/sbgoswami18/Password_Generator.github.io')">GitHub</button>
+              <button class="btn_1" onclick="window.open('https://sbgoswami18.github.io/Password_Generator.github.io/')">Live Demo</button>
+            </div>
+          </div>
+        </div>
+        <div class="arrow">
+          <img src="assets/arrow.png" onclick="location.href='./#contact_link'" alt="arrow" width="50pxpx" height="50pxpx">
+        </div>
+      </div>
+
+      <!-- Contact Me Section -->
+      <div class="contact" id="contact_link">
+        <div class="title">
+          <p>Get In Touch</p>
+          <h1>Contact Me</h2>
+        </div>
+        <div class="mail_box">
+          <div class="mail_box_1">
+            <img src="assets/email.png" onclick="window.open('mailto:sbgoswami18@gmail.com')" alt="email" width="30px" height="30px">
+            <p><a href="mailto:sbgoswami18@gmail.com">sbgoswami18@gmail.com</a></p>
+          </div>
+          <div class="mail_box_2">
+            <img src="assets/linkedin.png" onclick="window.open('https://www.linkedin.com/in/shivam-goswami-8bbb3b208')" alt="linkedin" width="30px" height="30px">
+            <p onclick="window.open('https://www.linkedin.com/in/shivam-goswami-8bbb3b208')">LinkedIn</p>
+          </div>
+        </div>
+        <div class="nav_tags">
+          <a href="#about_link">About</a>
+          <a href="#experience_link">Skills</a>
+          <a href="#Project_link">Projects</a>
+          <a href="#contact_link">Contact</a>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 2023 Shivam Goswami. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
